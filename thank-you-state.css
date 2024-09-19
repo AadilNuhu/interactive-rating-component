@@ -1,0 +1,42 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    color: #fff;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: hsl(213, 19%, 18%);
+    padding: 40px 30px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.rating {
+    font-size: 14px;
+    text-align: center;
+    margin: 30px 90px;
+    background-color: hsl(213, 19%, 28%);
+    padding: 5px 10px;
+    color: hsl(25, 97%, 40%);
+    width: 150px;
+    border-radius: 20px;
+}
+
+.thank-you {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.message {
+    font-size: 15.5px;
+    line-height: 25px;
+    color: hsl(217, 12%, 63%);
+}
